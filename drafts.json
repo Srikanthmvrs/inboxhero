@@ -1,0 +1,181 @@
+{
+  "m008": {
+    "ok": true,
+    "message_id": "m008",
+    "to": "devika@paperjet.io",
+    "subject": "Re: Staging is down again",
+    "draft": "Hi Devika - here's the staging AMQP URL (same one as before, no rotation):\n\namqp://pj_stage:Rk7-quiet-otter-51@broker-stg.paperjet.io:5672/pjs\n\nPoint the worker at that and restart.\n\n- Sam",
+    "cited": [
+      "m003"
+    ],
+    "method": "thread-walk",
+    "read_ids": [
+      "m001",
+      "m003",
+      "m005"
+    ],
+    "retrieved": {
+      "cited": [
+        "m003"
+      ],
+      "facts": [
+        "Staging AMQP URL from m003: amqp://pj_stage:Rk7-quiet-otter-51@broker-stg.paperjet.io:5672/pjs"
+      ],
+      "missing": false,
+      "method": "thread-walk",
+      "read_ids": [
+        "m001",
+        "m003",
+        "m005"
+      ]
+    },
+    "used_model": false
+  },
+  "m010": {
+    "ok": true,
+    "message_id": "m010",
+    "to": "aria.f@northwind.vc",
+    "subject": "Re: Intro call this week?",
+    "draft": "Hi Aria - thanks, I'll come back on this.\n\n- Sam",
+    "cited": [],
+    "method": "thread-walk",
+    "read_ids": [],
+    "retrieved": {
+      "cited": [],
+      "facts": [],
+      "missing": false,
+      "method": "thread-walk",
+      "read_ids": []
+    },
+    "used_model": false
+  },
+  "m042": {
+    "ok": true,
+    "message_id": "m042",
+    "to": "jordan.okafor@gmail.com",
+    "subject": "Re: Backend role -- following up",
+    "draft": "Hi Jordan - thanks, I'll come back on this.\n\n- Sam",
+    "cited": [],
+    "method": "thread-walk",
+    "read_ids": [],
+    "retrieved": {
+      "cited": [],
+      "facts": [],
+      "missing": false,
+      "method": "thread-walk",
+      "read_ids": []
+    },
+    "used_model": false
+  },
+  "m013": {
+    "ok": true,
+    "message_id": "m013",
+    "to": "raghav@paperjet.io",
+    "subject": "Re: move our 1:1?",
+    "draft": "Hi Raghav - thanks, I'll come back on this.\n\n- Sam",
+    "cited": [],
+    "method": "thread-walk",
+    "read_ids": [],
+    "retrieved": {
+      "cited": [],
+      "facts": [],
+      "missing": false,
+      "method": "thread-walk",
+      "read_ids": []
+    },
+    "used_model": false
+  },
+  "m016": {
+    "ok": true,
+    "message_id": "m016",
+    "to": "partners@acme-corp.com",
+    "subject": "Re: PaperJet demo -- Wednesday?",
+    "draft": "Hi Partners - thanks, I'll come back on this.\n\n- Sam",
+    "cited": [],
+    "method": "thread-walk",
+    "read_ids": [],
+    "retrieved": {
+      "cited": [],
+      "facts": [],
+      "missing": false,
+      "method": "thread-walk",
+      "read_ids": []
+    },
+    "used_model": false
+  },
+  "m019": {
+    "ok": true,
+    "message_id": "m019",
+    "to": "events@thegrandvenue.com",
+    "subject": "Re: Confirming your booking",
+    "draft": "Hi - confirming the 20th, that's the date the team locked in. Please send the contract.\n\n- Sam",
+    "cited": [
+      "m026",
+      "m036"
+    ],
+    "method": "keyword",
+    "read_ids": [
+      "m026",
+      "m027",
+      "m028",
+      "m029",
+      "m030",
+      "m033",
+      "m034",
+      "m035",
+      "m036"
+    ],
+    "retrieved": {
+      "cited": [
+        "m026",
+        "m036"
+      ],
+      "facts": [
+        "Launch date from m026: the 20th",
+        "Launch date from m036: the 20th"
+      ],
+      "missing": false,
+      "method": "keyword",
+      "read_ids": [
+        "m026",
+        "m027",
+        "m028",
+        "m029",
+        "m030",
+        "m033",
+        "m034",
+        "m035",
+        "m036"
+      ]
+    },
+    "used_model": false
+  },
+  "m043": {
+    "ok": true,
+    "message_id": "m043",
+    "to": "aria.f@northwind.vc",
+    "subject": "Re: one more slot",
+    "draft": "Hi Aria - thanks for this. Notes I pulled from earlier mail:\n[m010 from aria.f@northwind.vc] Hi Sam -- enjoyed the teaser on PaperJet. I'd love 30 minutes to hear the vision before our partner meeting. Does Tuesday the 15th at 3:00pm work on your side? Happy to send a calendar hold once you confirm.\n\n- Sam",
+    "cited": [
+      "m010"
+    ],
+    "method": "thread-walk",
+    "read_ids": [
+      "m010"
+    ],
+    "retrieved": {
+      "cited": [
+        "m010"
+      ],
+      "facts": [
+        "[m010 from aria.f@northwind.vc] Hi Sam -- enjoyed the teaser on PaperJet. I'd love 30 minutes to hear the vision before our partner meeting. Does Tuesday the 15th at 3:00pm work on your side? Happy to send a calendar hold once you confirm."
+      ],
+      "missing": false,
+      "method": "thread-walk",
+      "read_ids": [
+        "m010"
+      ]
+    },
+    "used_model": false
+  }
+}
